@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.displaycontainer{
+    width: 40%;
+    height: 48%;
+    background-color: gray;
+    margin: 5%  auto;
+    padding: 10px;
+}
+.input input{
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    margin-top:10px;
+    border: none;
+    text-align: right;
+    font-size: 30px;
+}
+.output input{
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+    margin-top: 2px;
+    border: none;
+    font-size :15px;
+}
+.content{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     margin-top: 5px;
+}
+.content div{
+    width: 50px;
+    height: 40px;
+    margin-top: 15px;
+}
+.content button{
+width: 100%;
+height: 100%;
+column-gap: 5px;
+border-radius: 1px solid black;
+}
+.btn18 button{
+    background-color:coral;
+}
+.btn19 button{
+    background-color: dodgerblue;
+}
+.btn20 button{
+    background-color: dodgerblue;
+}
+.btn15 button{
+    background-color: dodgerblue;
+}
+.btn14 button{
+    background-color: dodgerblue;
+}
+.btn10 button{
+    background-color: darkcyan;
+}
+.btn9 button{
+    background-color: dodgerblue;
+}
+.btn5 button{
+    background-color: darkcyan;
+}
+.btn4 button{
+    background-color: dodgerblue;
+}
+
